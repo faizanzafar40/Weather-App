@@ -2,7 +2,7 @@
 
 ## Brief Description
 
-A simple weather desktop application that uses Tkinter and OpenWeatherMap API
+A simple weather desktop application built in Python which uses Tkinter and OpenWeatherMap API
 
 ## User Setup Guide
 
