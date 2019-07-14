@@ -7,7 +7,7 @@ A simple weather desktop application built in Python which uses Tkinter and Open
 ## User Setup Guide
 
 - Download this repository
-- Navigate to *_dist/test.exe_*
+- Navigate to **_dist/test.exe_**
 - Execute the application
 
 ## Developer's Guide
