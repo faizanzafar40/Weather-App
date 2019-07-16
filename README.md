@@ -9,7 +9,7 @@ A simple weather desktop application built in Python which uses Tkinter and Open
 - Download this repository
 - Navigate to **_dist/test.exe_**
 - Execute the application
-- Note: This weather app by default provides weather information for German cities by postal code. 
+- Note: This weather app by default provides weather information for German cities by postal code
 
 ## Developer's Guide
 
