@@ -1,4 +1,4 @@
-# Simple Weather App
+# A Simple Weather App
 
 ## Brief Description
 
