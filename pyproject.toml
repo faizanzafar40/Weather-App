@@ -1,0 +1,32 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "weather-app"
+version = "1.0.0"
+description = "A small Tkinter desktop app that shows the current weather for a German postal code."
+readme = "README.md"
+requires-python = ">=3.8"
+license = { file = "LICENSE" }
+authors = [{ name = "Faizan Zafar" }]
+dependencies = [
+    "requests>=2.32,<3",
+    "Pillow>=10,<13",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8", "ruff>=0.5"]
+
+[project.scripts]
+weather-app = "weather_app.app:main"
+
+[tool.setuptools]
+packages = ["weather_app"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py38"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP", "B"]
