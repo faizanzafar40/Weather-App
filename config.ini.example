@@ -1,0 +1,5 @@
+# Copy this file to config.ini and fill in your OpenWeatherMap API key.
+# config.ini is gitignored so the key stays out of the repo, but it gets
+# bundled into the packaged build (see weather-app.spec).
+[openweathermap]
+api_key = your-openweathermap-api-key
