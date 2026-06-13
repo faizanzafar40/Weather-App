@@ -1,0 +1,34 @@
+# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+*.pyo
+
+# PyInstaller build output
+build/
+dist/
+*.manifest
+
+# Weather icons the app downloads at runtime
+default.jpg
+current_weather.jpg
+
+# Holds the real API key; bundled into the build but never committed.
+# Use config.ini.example as the template.
+config.ini
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Packaging / test artifacts
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+
+# IDE / editor
+.idea/
+.vscode/
+
+# Local Claude Code settings
+.claude/settings.local.json
